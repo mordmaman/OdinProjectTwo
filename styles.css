@@ -36,3 +36,31 @@ header{
     background-color: #ffffff;
     width: 15%;
 }
+
+.topMenu{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: right;
+    background-color: #fff;
+}
+
+li {
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+li {
+    text-decoration: none;
+}
+
+.clear
+{
+    clear: both;
+    display: block;
+    height: 0;
+}
