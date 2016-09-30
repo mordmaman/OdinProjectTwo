@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #f1f1f1
 }
 
@@ -12,18 +12,13 @@ header{
     padding: 7px 30px 8px 30px;
 }
 
-.burgerLogo {
+.burger, .logo, .search{
     display: inline-block;
-    background-color: #ffffff;
-}
-
-.burger, .logo{
-    display: inline;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .fa {
-    display: inline;
+    /*display: inline;*/
     vertical-align: middle;
     background: #ffffff;
     opacity: 0.3;
@@ -32,13 +27,14 @@ header{
 }
 
 #logo{
-    padding-left: 10px;
+    padding-left: 35px;
     background-color: #ffffff;
-    width: 15%;
+    width: 73px;
 }
 
 .topMenu{
     float: left;
+    max-height: 35px;
 }
 
 ul {
@@ -52,9 +48,6 @@ ul {
 li {
     line-height: 20px;
     vertical-align: middle;
-}
-
-li {
     text-decoration: none;
 }
 
@@ -63,4 +56,19 @@ li {
     clear: both;
     display: block;
     height: 0;
+}
+
+input {
+    /*padding-left: 204px;*/
+    width: 650px;
+    height: 25px;
+    /*padding-top:px;*/
+    margin-left: 197px;;
+    /*display: inline-block;*/
+    background-color: #fff;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #d9d9d9;
+    position: absolute;
+    margin-top: 5px;
 }
