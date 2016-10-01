@@ -59,11 +59,11 @@ li {
 }
 
 input {
-    /*padding-left: 204px;*/
-    width: 650px;
+    padding-left: 7px;
+    width: 584px;
     height: 25px;
     /*padding-top:px;*/
-    margin-left: 197px;;
+    margin-left: 197px;
     /*display: inline-block;*/
     background-color: #fff;
     border-style:solid;
@@ -71,4 +71,16 @@ input {
     border-color: #d9d9d9;
     position: absolute;
     margin-top: 5px;
+    font-size: 15px;
+}
+
+input:hover{
+    border-color: #000;
+}
+
+.fa-search{
+    border: 1px solid #d9d9d9;
+    padding-left: 20px;
+    margin-top:4px;
+    margin-left: 805px;
 }
